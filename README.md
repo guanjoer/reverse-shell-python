@@ -6,13 +6,13 @@
 
 - **파일 다운로드:**
 
-```sh
+```
 download <Local-file-path>
 ```
 
 - **연결 종료:**
 
-```sh
+```
 Type exit or Ctrl + c
 ```
 
@@ -45,7 +45,7 @@ python reverse_shell.py
 ```
 <br>
 
-**3.** 공격자 PC인 Kali Linux에서 **연결 및 **타겟 IP** 확인
+**3.** 공격자 PC인 Kali Linux에서 **연결 및 타겟 IP** 확인
 
 <img src="images/reverse-2.png" width="50%"/>
 
