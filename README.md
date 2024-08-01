@@ -1,10 +1,11 @@
-# Reverse Shell Specialized for Windows Local File Download
+# Reverse Shell Specialized for Local File Download
 
-- 본 저장소의 스크립트들은 피해자의 OS 환경이 **Windows** 일 때를 가정하고, Windows와의 **Reverse Connection** 시, 해당 시스템의 **Local File Download** 기능에 특화되어 있습니다.
+- 본 저장소의 스크립트들은 피해자의 OS 환경이 Windows 일 때를 가정하고 작성하였으며, 해당 OS와의 **Reverse Connection** 시, 해당 시스템의 **내장된 명령어 수행** 및 시스템 내 **Local File Download** 기능에 특화되어 있습니다.
 
 # Usage
 
 - 파일 다운로드:
+
 ```sh
 download <Local-file-path>
 ```
@@ -24,18 +25,18 @@ Type exit or Ctrl + c
 
 ---
 
-1. 공격자 PC인 **Kali Linux**에서 `attacker_server.py` 실행
+**1.** 공격자 PC인 **Kali Linux**에서 `attacker_server.py` 실행
 
 ```zsh
 
 python3 attacker_server.py
 
 ```
-<img src="images/reverse-1.png" width="50%"/>
+<img src="images/reverse-1.png" width="30%"/>
 
 <br>
 
-2. 희생자 PC인 **Windows 10**인 환경에서 `reverse_shell.py` 실행
+**2.** 희생자 PC인 **Windows 10**인 환경에서 `reverse_shell.py` 실행
 
 ```sh
 
@@ -44,7 +45,7 @@ python reverse_shell.py
 ```
 <br>
 
-3. 공격자 PC인 Kali Linux에서 **연결 확인** 및 **타겟 IP** 확인
+**3.** 공격자 PC인 Kali Linux에서 **연결 확인** 및 **타겟 IP** 확인
 
 <img src="images/reverse-2.png" width="50%"/>
 
@@ -53,7 +54,7 @@ python reverse_shell.py
 
 <br>
 
-4. **디렉토리 확인 및 파일 다운로드**
+**4. 디렉토리 확인 및 파일 다운로드**
 
 
 - **디렉토리 확인**

