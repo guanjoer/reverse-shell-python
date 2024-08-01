@@ -67,3 +67,7 @@ python reverse_shell.py
 
 - **다운로드 된 파일 확인**
 <img src="images/reverse-6.png" width="100%"/>
+
+# Disclaimer
+
+해당 도구는 오로지 학습 목적으로 제작되었습니다. 해당 도구는 허가된 환경에서만 사용해야 하며, 그 이외의 행위에 대해서는 법적 책임을 야기할 수 있습니다.
