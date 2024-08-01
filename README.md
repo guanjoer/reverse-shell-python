@@ -1,6 +1,6 @@
 # Reverse Shell Specialized for Local File Download
 
-- 본 저장소의 스크립트들은 피해자의 OS 환경이 Windows 일 때를 가정하고 작성하였으며, 해당 OS와의 **Reverse Connection** 시, 해당 시스템의 **내장된 명령어 수행** 및 시스템 내 **Local File Download** 기능에 특화되어 있습니다.
+- 본 저장소의 스크립트들은 피해자의 OS 환경이 Windows 일 때를 가정하고 작성하였으며, 해당 OS와의 **Reverse Connection** 시, 해당 **시스템 명령어 수행** 및 시스템 내 **Local File Download** 기능에 특화되어 있습니다.
 
 # Usage
 
